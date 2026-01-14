@@ -9,9 +9,9 @@ terraform {
   }
 
   cloud {
-    organization = "YOUR_TFC_ORG"
+    organization = "ria-terraform-org"
     workspaces {
-      name = "aws-app-db"
+      name = "aws-app-db-dev"
     }
   }
 }
